@@ -52,7 +52,7 @@
     const sx = vw / SOURCE_W;
     const sy = vh / SOURCE_H;
 
-    frame.style.transform = 'scale(' + sx + ', ' + sy + ')';
+    frame.style.transform = 'scale(' + sx + ', ' + (sy * 0.94) + ')';
   }
 
   window.addEventListener('resize', fit);
